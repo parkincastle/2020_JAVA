@@ -1,0 +1,38 @@
+package exam05;
+//프린터에 대한 설계도
+public class Printer {
+
+	//클래스 : 객체에대한 속성(필드, 멤버변수), 동작(메서드)
+	//멤버변수 : paper(int)
+	private int paper;
+	
+	//생성자 : 리턴타임니 없는 메서드, 이름 == 클래스이름
+	//디폴트생성자 : 컴파일러가 자동생성
+	public Printer() {
+		System.out.println("기본생성자 호출");
+		
+	}
+	
+	public int getPaper() {
+		return paper;
+	}
+
+	public void setPaper(int paper) {
+		this.paper = paper;
+	}
+
+	public void print(int cnt) {
+		if(this.paper < cnt) {
+			System.out.println(this.paper + "장 만 출력");
+			System.out.println(cnt - this.paper + "장 출력불가" );
+		}
+		else if(this.paper == 0) {
+			System.out.println("용지없음");
+		}
+		System.out.println(this.paper + "장 있음");
+		System.out.println(cnt + "장 출력됨");
+		this.paper -= cnt;
+		System.out.println(this.paper + "장 있음");
+	}
+	
+}

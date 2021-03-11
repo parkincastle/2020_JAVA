@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;MyInterface.java&apos; to &apos;Ch11(추상클래스와 인터페이스)/src/exam07&apos;&#x0D;&#x0A;- Original project: &apos;Ch01(연산자)&apos;&#x0D;&#x0A;- Destination element: &apos;Ch11(추상클래스와 인터페이스)/src/exam07&apos;&#x0D;&#x0A;- Original element: &apos;MyInterface.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Ch11\(추상클래스와 인터페이스)/src&lt;exam07" element1="/src&lt;{MyInterface.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1604644525483" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,14 @@
+package exam4;
+
+public class GMothodEx {
+
+	public static void main(String[] args) {
+
+		Integer[] a = {1, 2, 3, 4, 5};
+		double[] d = {1.5, 2.5, 3.5, 4.5, 5.5};
+		
+		Utill.show(a);
+		
+	}
+
+}

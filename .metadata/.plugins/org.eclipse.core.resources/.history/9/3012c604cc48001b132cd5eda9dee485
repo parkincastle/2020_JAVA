@@ -1,0 +1,18 @@
+package exam07;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class StudentManager {
+
+	private Scanner sc;
+	
+	HashMap<String, Student> map = new HashMap<String, Student>();
+	
+	public StudentManager() {
+		sc = new Scanner(System.in);
+	}
+	
+	
+	
+}

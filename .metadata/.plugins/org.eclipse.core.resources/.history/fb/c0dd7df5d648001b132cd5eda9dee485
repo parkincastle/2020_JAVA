@@ -1,0 +1,23 @@
+package exam07;
+
+public class Student {
+
+	String name;
+	String department;
+	String num;
+	String score;
+	
+	public Student(String name, String department, String num2, String score2) {
+		super();
+		this.name = name;
+		this.department = department;
+		this.num = num2;
+		this.score = score2;
+	}
+	
+	@Override
+	public String toString() {
+		return "이름 : " + this.name + "\n주소 : " + this.department + "\n학번 : " + this.num + "\n점수 : " + this.score;
+	}
+	
+}

@@ -1,0 +1,33 @@
+package exam4;
+
+class Person<T>{
+	
+	private T t;
+
+	public T getT() {
+		return t;
+	}
+
+	public void setT(T t) {
+		this.t = t;
+	}
+	
+	
+}
+
+class Utill{
+	public static Person<T> change(T t) {
+		
+	}
+	
+}
+
+public class PersonEx {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+}
